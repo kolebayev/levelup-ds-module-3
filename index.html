@@ -3,14 +3,153 @@
 
 <head>
     <title>My Wish — Components</title>
-    <!-- <link rel="stylesheet" type="text/css" href="./src/style.scss" /> -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+
+
     <link rel="stylesheet" type="text/css" href="./css/index.css" />
 </head>
 
 <body>
     <!-- <script src="./src/index.js"></script> -->
-    <header>My Wish — Components</header>
-    <button>12s33</button>
+    <header>
+        <div class="header_wrapper">
+            <div>My Wish — Components</div>
+            <div>Демо HTML Акакдемии</div>
+        </div>
+    </header>
+    <main>
+        <!-- токены -->
+        <div class="row-block">
+            <div class="row-block_info">
+                <div class="row-block_name">Токены</div>
+                <div class="row-block_description">токены дизайн-системы</div>
+            </div>
+
+            <div class="row-block_content row-block_content_tokens" >
+                <div class="tokens_wrapper">
+                    <div>Цвета текста</div>
+
+                    <div class="row-block_content_tokens_colors">
+                        <div class="color_bubble color_bubble_text_accent"></div>
+                        <div class="color-info">
+                            <div class="color-info_name">Акцентный</div>
+                            <div class="color-info_description">Акцентный</div>
+                            <code>--color-text-accent</code>
+                        </div>
+                    </div>
+
+                    <div class="row-block_content_tokens_colors">
+                        <div class="color_bubble color_bubble_text_primary"></div>
+                        <div class="color-info">
+                            <div class="color-info_name">Основной</div>
+                            <div class="color-info_description">Акцентный</div>
+                            <code>--color-text-primary</code>
+                        </div>
+                    </div>
+
+                    <div class="row-block_content_tokens_colors">
+                        <div class="color_bubble color_bubble_text_secondary"></div>
+                        <div class="color-info">
+                            <div class="color-info_name">Второстепенный</div>
+                            <div class="color-info_description">Акцентный</div>
+                            <code>--color-text-secondary</code>
+                        </div>
+                    </div>
+
+                    <div class="row-block_content_tokens_colors">
+                        <div class="color_bubble color_bubble_text_success"></div>
+                        <div class="color-info">
+                            <div class="color-info_name">Успешного действия</div>
+                            <div class="color-info_description">Акцентный</div>
+                            <code>--color-text-success</code>
+                        </div>
+                    </div>
+
+                    <div class="row-block_content_tokens_colors">
+                        <div class="color_bubble color_bubble_text_error"></div>
+                        <div class="color-info">
+                            <div class="color-info_name">Ошибки</div>
+                            <div class="color-info_description">Акцентный</div>
+                            <code>--color-text-error</code>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tokens_wrapper">
+                    <div>Цвета фонов</div>
+
+                    <div class="row-block_content_tokens_colors">
+                        <div class="color_bubble color_bubble_bg_accent"></div>
+                        <div class="color-info">
+                            <div class="color-info_name">Акцентный</div>
+                            <div class="color-info_description">Акцентный</div>
+                            <code>--color-bg-accent</code>
+                        </div>
+                    </div>
+
+                    <div class="row-block_content_tokens_colors">
+                        <div class="color_bubble color_bubble_bg_primary"></div>
+                        <div class="color-info">
+                            <div class="color-info_name">Основной</div>
+                            <div class="color-info_description">Акцентный</div>
+                            <code>--color-bg-primary</code>
+                        </div>
+                    </div>
+
+                    <div class="row-block_content_tokens_colors">
+                        <div class="color_bubble color_bubble_bg_secondary"></div>
+                        <div class="color-info">
+                            <div class="color-info_name">Второстепенный</div>
+                            <div class="color-info_description">Акцентный</div>
+                            <code>--color-bg-secondary</code>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tokens_wrapper">
+                    <div>Скругления</div>
+
+                    <div class="row-block_content_tokens_colors">
+                        <div class="color_bubble color_bubble_border-radius_s"></div>
+                        <div class="color-info">
+                            <div class="color-info_name">6px</div>
+                            <div class="color-info_description">Акцентный</div>
+                            <code>--border-radius-s</code>
+                        </div>
+                    </div>
+
+                    <div class="row-block_content_tokens_colors">
+                        <div class="color_bubble color_bubble_border-radius_m"></div>
+                        <div class="color-info">
+                            <div class="color-info_name">16px</div>
+                            <div class="color-info_description">Акцентный</div>
+                            <code>--border-radius-m</code>
+                        </div>
+                    </div>
+
+                    <div class="row-block_content_tokens_colors">
+                        <div class="color_bubble color_bubble_border-radius_half"></div>
+                        <div class="color-info">
+                            <div class="color-info_name">50%</div>
+                            <div class="color-info_description">Акцентный</div>
+                            <code>--border-radius-half</code>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tokens_wrapper">
+                    <div>Отступы</div>
+                    <div class="color-info_description">на текущем этапе выделенных значений нет, <br>но вы заметите, что они кратны 4.<br>обсудите это с дизайнером</div>
+                </div>
+            </div>
+        </div>
+        <!-- токены -->
+    </main>
 </body>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 
 </html>

@@ -1,2 +1,20 @@
-@import url('./helpers/helpers.css');
-@import url('./components/button.css')
+@import url("./helpers/helpers.css");
+@import url("./components/button.css");
+
+:root {
+  /* цвета фонов */
+  --color-bg-accent: #7d00fb;
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f4f3f5;
+  /* цвета текста */
+  --color-text-primary: #000000;
+  --color-text-secondary: rgba(0, 0, 0, 0.4);
+  --color-text-accent: #7d00fb;
+  --color-text-success: #0da939;
+  --color-text-error: #e94343;
+  /* скругления */
+  --border-radius-s: 6px;
+  --border-radius-m: 16px;
+  --border-radius-half: 50%;
+}
+

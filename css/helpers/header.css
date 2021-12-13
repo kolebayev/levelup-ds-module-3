@@ -1,0 +1,24 @@
+header {
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header_wrapper > div:first-child {
+  font-weight: 500;
+  color: var(--color-text-accent);
+}
+
+.header_wrapper > div:last-child {
+  font-weight: 400;
+}
