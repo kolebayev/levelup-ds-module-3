@@ -1,0 +1,70 @@
+.mv-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.mv-icon_view_primary {
+  background-color: var(--color-text-primary);
+}
+
+.mv-icon_view_primary-inverse {
+  background-color: var(--color-text-primary-inverse);
+}
+
+.mv-icon_view_accent {
+  background-color: var(--color-text-accent);
+}
+
+/* перечисление иконок */
+
+.mv-icon_arrow-down {
+  mask-image: url("../../icons/iconArrowDown.svg");
+}
+
+.mv-icon_arrow-right {
+  mask-image: url("../../icons/iconArrowRight.svg");
+}
+
+.mv-icon_at {
+  mask-image: url("../../icons/iconAt.svg");
+}
+
+.mv-icon_chevron-left {
+  mask-image: url("../../icons/iconChevronLeft.svg");
+}
+
+.mv-icon_hand {
+  mask-image: url("../../icons/iconHand.svg");
+}
+
+.mv-icon_miracle {
+  mask-image: url("../../icons/iconMiracle.svg");
+}
+
+.mv-icon_present {
+  mask-image: url("../../icons/iconPresent.svg");
+}
+
+.mv-icon_search {
+  mask-image: url("../../icons/iconSearch.svg");
+}
+
+.mv-icon_share {
+  mask-image: url("../../icons/iconShare.svg");
+}
+
+.mv-icon_instagram {
+  mask-image: url("../../icons/iconInstagram.svg");
+}
+
+.mv-icon_vk {
+  mask-image: url("../../icons/iconVk.svg");
+}
+
+.mv-icon_facebook {
+  mask-image: url("../../icons/iconFacebook.svg");
+}
+
+.mv-icon_twitter {
+  mask-image: url("../../icons/iconTwitter.svg");
+}

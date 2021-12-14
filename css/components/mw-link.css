@@ -1,0 +1,25 @@
+.mw-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--color-text-accent);
+  cursor: pointer;
+  width: fit-content;
+}
+
+.mw-link_type_simple {
+  text-decoration: underline;
+}
+
+.mw-link_type_simple > svg {
+  display: none;
+}
+
+.mw-link_type_directionBack {
+  display: flex;
+  align-items: center;
+}
+
+.mw-link_type_directionBack > svg {
+  display: block;
+}

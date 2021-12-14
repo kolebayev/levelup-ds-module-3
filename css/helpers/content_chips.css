@@ -1,0 +1,11 @@
+.row-block_content_chips {}
+
+.chips_preview {}
+
+.chips_preview_wrapper {
+  display: grid;
+  grid-template-columns: 200px 100px auto;
+  grid-gap: 24px;
+  align-items: center;
+  margin-bottom: 24px;
+}

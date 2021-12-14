@@ -1,0 +1,15 @@
+.input_toolbar {
+  margin-bottom: 24px;
+}
+
+.input_toolbar label:not(:first-child) {
+  margin-left: 20px;
+}
+
+.input_preview {
+  width: 300px;
+  height: 80px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+}

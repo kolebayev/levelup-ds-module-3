@@ -1,0 +1,50 @@
+.row-block_content_icons {}
+
+.icons_preview {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 24px;
+  margin-bottom: 20px;
+}
+
+.icons_preview > div {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.icon_svg {
+  width: 24px;
+  height: 24px;
+}
+
+.icon_description {
+  margin-top: 8px;
+  color: var(--color-text-secondary);
+}
+
+.icons_specs > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icons_specs > div > pre {
+  width: 100%;
+}
+
+.icons_specs > div:last-child > div {
+  background-color: var(--color-bg-accent);
+}
+
+.icons_specs_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 42px;
+  height: 42px;
+  margin-right: 12px;
+}

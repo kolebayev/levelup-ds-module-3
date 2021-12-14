@@ -1,0 +1,7 @@
+.link_preview_wrapper {
+  display: grid;
+  grid-template-columns: 100px 150px auto;
+  grid-gap: 24px;
+  align-items: center;
+  margin-bottom: 24px;
+}
