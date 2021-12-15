@@ -29,10 +29,6 @@
   box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
 }
 
-/* .mw-input_input:disabled {
-  background-color: #f0f0f0;
-} */
-
 .mw-input_state_invalid {
   border-color: var(--color-bg-error);
 }
