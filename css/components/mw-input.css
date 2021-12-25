@@ -29,7 +29,7 @@
   box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
 }
 
-.mw-input_state_invalid {
+.mw-input_state_error {
   border-color: var(--color-bg-error);
 }
 
@@ -42,7 +42,7 @@
   color: var(--color-text-error);
 }
 
-.mw-input_state_invalid ~ .mw-input_message {
+.mw-input_state_error ~ .mw-input_message {
   display: block;
 }
 
