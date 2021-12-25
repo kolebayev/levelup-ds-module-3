@@ -16,7 +16,7 @@ const getInputActiveSelectOption = (id) => {
   const newClassName = "mw-" + id + "_" + optionValue;
   
   if (id.includes("state")) {
-    previewInputClassList.toggle('mw-input_state_invalid')
+    previewInputClassList.toggle('mw-input_state_error')
   }
 
   if (id.includes("icon")) {
