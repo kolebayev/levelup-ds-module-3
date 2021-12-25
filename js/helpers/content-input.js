@@ -4,7 +4,6 @@
     document.getElementById(item).selectedIndex = 0;
   });
 
-
 // хранит предыдущие классы для замены через селект
 let inputHasIconSelectPrevValue = "mw-input_has-icon_none";
 

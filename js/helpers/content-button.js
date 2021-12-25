@@ -4,7 +4,6 @@
     document.getElementById(item).selectedIndex = 0;
   });
 
-
 // хранит предыдущие классы для замены через селект
 let btnSizeSelectPrevValue = "mw-button_size_m";
 let btnViewSelectPrevValue = "mw-button_view_primary";
@@ -34,7 +33,6 @@ const getActiveSelectOption = (id) => {
     btnHasIconSelectPrevValue = newClassName;
   }
   
-
   codeSnippetNode.innerHTML = `&lt;div class="${document.getElementById("preview-button").classList}"&gt;&lt;/div&gt;`;
   hljs.highlightElement(codeSnippetNode);
 };
