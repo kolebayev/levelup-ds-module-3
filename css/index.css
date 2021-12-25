@@ -79,24 +79,20 @@ code {
   gap: 32px;
   grid-template-columns: 3fr 9fr;
   border-bottom: 1px solid #ebebeb;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
-.row-block_info {}
-
-.row-block_name {
+.row-block__name {
   font-size: 32px;
   font-weight: 500;
   color: #454a54;
   margin-bottom: 12px;
 }
 
-.row-block_description {
-  color: rgba(69, 74, 84, 0.4);
+.row-block__description {
+  color: rgba(38, 42, 48, 0.4);
 }
 
-.row-block_content {}
-
-.content_description {
+.row-block__description {
   margin-bottom: 20px;
 }

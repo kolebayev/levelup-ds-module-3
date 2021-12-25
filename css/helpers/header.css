@@ -8,17 +8,17 @@ header {
   border-bottom: 1px solid #cccccc;
 }
 
-.header_wrapper {
+.header {
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
 
-.header_wrapper > div:first-child {
+.header__left {
   font-weight: 500;
   color: var(--color-text-accent);
 }
 
-.header_wrapper > div:last-child {
+.header__right {
   font-weight: 400;
 }

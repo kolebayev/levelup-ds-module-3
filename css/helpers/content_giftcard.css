@@ -1,6 +1,4 @@
-.row-block_content_giftcard {}
-
-.giftcard_preview {
+.giftcard-preview {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 24px;

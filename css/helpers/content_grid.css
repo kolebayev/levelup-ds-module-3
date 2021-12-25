@@ -1,6 +1,4 @@
-.row-block_content_grid {}
-
-.component-wrapper {
+.grid-decoration {
   margin: 12px 0;
   height: 200px;
   background: repeating-linear-gradient(
@@ -12,7 +10,7 @@
   );
 }
 
-.component-wrapper > div {
+.grid-decoration div {
   background-color: var(--color-bg-secondary);
   border-left: 1px dashed var(--color-bg-accent);
   border-right: 1px dashed var(--color-bg-accent);

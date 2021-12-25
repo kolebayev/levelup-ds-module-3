@@ -1,14 +1,12 @@
-.row-block_content_buttons {}
-
-.button_toolbar {
+.btn__toolbar {
   margin-bottom: 24px;
 }
 
-.button_toolbar label:not(:first-child) {
+.btn__toolbar label:not(:first-child) {
   margin-left: 20px;
 }
 
-.button_preview {
+.btn__preview {
   margin-bottom: 24px;
   height: 60px;
   display: flex;

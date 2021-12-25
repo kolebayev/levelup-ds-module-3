@@ -1,4 +1,4 @@
-.checkbox_preview_wrapper {
+.checkbox__wrapper {
   display: grid;
   grid-template-columns: 200px 100px auto;
   grid-gap: 24px;

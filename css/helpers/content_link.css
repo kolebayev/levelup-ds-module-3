@@ -1,4 +1,4 @@
-.link_preview_wrapper {
+.link-wrapper {
   display: grid;
   grid-template-columns: 100px 150px auto;
   grid-gap: 24px;

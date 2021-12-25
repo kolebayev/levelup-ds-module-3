@@ -1,23 +1,21 @@
-.row-block_content_logo {}
-
-.logo_preview {
+.logo {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0;
 }
 
-.logo_preview > div {
+.logo__item {
   height: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.logo_preview_brand {
+.logo__item_view_inverse {
   background-color: var(--color-bg-accent);
 }
 
-.logo_preview_light {
+.logo__item_view_accent {
   background-color: var(--color-bg-primary);
   border: 1px solid var(--color-bg-secondary);
 }
