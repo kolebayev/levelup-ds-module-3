@@ -12,6 +12,10 @@
   cursor: pointer;
 }
 
+.mw-button:focus {
+  box-shadow: 0 0 0 0.2rem var(--color-control-shadow);
+}
+
 .mw-button_size_m {
   height: 56px;
   padding: 16px 24px;
@@ -29,7 +33,7 @@
 }
 
 .mw-button_view_primary:hover {
-  background-color: #962eff;
+  background-color: var(--color-control-bg-primary-hover);
   border: none;
   color: var(--color-text-primary-inverse);
 }
@@ -42,8 +46,8 @@
 
 .mw-button_view_bordered:hover {
   background-color: var(--color-bg-primary);
-  border: 1px solid #962eff;
-  color: #962eff;
+  border: 1px solid var(--color-control-border-bordered-hover);
+  color: var(--color-control-text-bordered-hover);
 }
 
 .mw-button_view_secondary {
@@ -53,9 +57,9 @@
 }
 
 .mw-button_view_secondary:hover {
-  background-color: #f4ecfc;
+  background-color: var(--color-control-bg-secondary-hover);
   border: none;
-  color: #962eff;
+  color: var(--color-control-text-secondary-hover);
 }
 
 .mw-button_has-icon_no-icon > div {

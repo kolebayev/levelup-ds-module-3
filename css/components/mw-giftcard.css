@@ -12,7 +12,7 @@
 }
 
 .mw-giftcard_status_you-giving .mw-giftcard_badge {
-  background: #f68500;
+  background: var(--color-bg-warning);
 }
 
 .mw-giftcard_status_already-given .mw-giftcard_badge {

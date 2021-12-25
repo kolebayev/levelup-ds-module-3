@@ -26,7 +26,7 @@
   background-color: var(--color-bg-primary);
   border-color: var(--color-bg-accent);
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  box-shadow: 0 0 0 0.2rem var(--color-control-shadow);
 }
 
 .mw-input_state_error {

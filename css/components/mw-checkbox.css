@@ -34,23 +34,23 @@
 /* стили при наведении курсора на checkbox */
 .mw-checkbox > input:not(:disabled):not(:checked) + span:hover::before {
   background-color: var(--color-bg-secondary);
-  border: 1px solid #962eff;
+  border: 1px solid var(--color-control-border-bordered-hover);
 }
 
 /* стили для активного чекбокса (при нажатии на него) */
 .mw-checkbox > input:not(:disabled):active + span::before {
   background-color: var(--color-bg-secondary);
-  border: 1px solid #962eff;
+  border: 1px solid var(--color-control-border-bordered-hover);
 }
 
 /* стили для чекбокса, находящегося в фокусе */
 .mw-checkbox > input:focus + span::before {
-  box-shadow: 0 0 0 0.2rem rgba(125, 0, 251, 0.25);
+  box-shadow: 0 0 0 0.2rem var(--color-control-shadow);
 }
 
 /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
 .mw-checkbox > input:focus:not(:checked) + span::before {
-  border-color: #80bdff;
+  border-color: var(--color-control-bg-primary-hover);
 }
 
 /* стили для чекбокса, находящегося в состоянии checked */
@@ -63,6 +63,6 @@
 
 /* стили для чекбокса, находящегося в состоянии disabled */
 .mw-checkbox > input:disabled + span::before {
-  background-color: #f0f0f0;
+  background-color: var(--color-control-bg-disabled);
   border: none;
 }

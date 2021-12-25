@@ -19,5 +19,5 @@
 
 .logo_preview_light {
   background-color: var(--color-bg-primary);
-  border: 1px solid #ebebeb;
+  border: 1px solid var(--color-bg-secondary);
 }

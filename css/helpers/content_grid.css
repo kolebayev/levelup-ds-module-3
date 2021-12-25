@@ -11,8 +11,8 @@
   height: 200px;
   background: repeating-linear-gradient(
     -45deg,
-    #f5ebff,
-    #f5ebff 10px,
+    var(--color-bg-secondary),
+    var(--color-bg-secondary) 10px,
     var(--color-bg-primary) 10px,
     var(--color-bg-primary) 20px
   );

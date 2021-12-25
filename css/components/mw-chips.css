@@ -17,8 +17,8 @@
 
 .mw-chips_state_default:hover {
   background-color: var(--color-bg-primary);
-  border: 1px solid #962eff;
-  color: #962eff;
+  border: 1px solid var(--color-control-border-bordered-hover);
+  color: var(--color-control-text-bordered-hover);
 }
 
 .mw-chips_state_active {
@@ -28,7 +28,7 @@
 }
 
 .mw-chips_state_active:hover {
-  background-color: #962eff;
+  background-color: var(--color-control-bg-primary-hover);
   border: none;
   color: var(--color-text-primary-inverse);
 }

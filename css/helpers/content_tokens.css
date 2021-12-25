@@ -1,12 +1,4 @@
-.row-block_content_tokens {
-  /* display: grid;
-  gap: 24px;
-  grid-template: 1fr 1fr 1fr 1fr; */
-}
-
-/* .row-block_content_tokens > div:first-child {
-  margin-bottom: 12px;
-} */
+.row-block_content_tokens {}
 
 .tokens_wrapper .row-block_content_tokens_colors {
   margin-bottom: 20px;
@@ -39,7 +31,7 @@
 }
 
 .color-info > code {
-  background-color: #f0f0f0;
+  background-color: var(--color-bg-secondary);
   padding: 4px 8px;
   border-radius: 8px;
   font-size: 10px;
@@ -81,6 +73,10 @@
 
 .color_bubble_bg_secondary {
   background-color: var(--color-bg-secondary);
+}
+
+.color_bubble_bg_warning {
+  background-color: var(--color-bg-warning);
 }
 
 .color_bubble_border-radius_s {

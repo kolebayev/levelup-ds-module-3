@@ -28,6 +28,7 @@
   --color-bg-secondary: #f4f3f5;
   --color-bg-error: #e94343;
   --color-bg-success: #0da939;
+  --color-bg-warning: #f68500;
   /* цвета текста */
   --color-text-primary: #000000;
   --color-text-primary-inverse: #ffffff;
@@ -39,8 +40,18 @@
   --border-radius-s: 6px;
   --border-radius-m: 16px;
   --border-radius-half: 99rem;
-}
+  /* спешл для контролов */
+  --color-control-bg-primary-hover: #962eff;
 
+  --color-control-border-bordered-hover: #962eff;
+  --color-control-text-bordered-hover: #962eff;
+
+  --color-control-bg-secondary-hover: #f4ecfc;
+  --color-control-text-secondary-hover: #962eff;
+
+  --color-control-shadow: rgba(125, 0, 251, 0.25);
+  --color-control-bg-disabled: #f0f0f0;
+}
 
 * {
   margin: 0;
@@ -81,7 +92,6 @@ code {
 }
 
 .row-block_description {
-  /* color: #454a54; */
   color: rgba(69, 74, 84, 0.4);
 }
 
