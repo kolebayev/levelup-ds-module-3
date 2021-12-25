@@ -60,7 +60,7 @@
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Rubik", "apple-system", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantrell", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
 }
 
 
@@ -90,9 +90,6 @@ code {
 }
 
 .row-block__description {
-  color: rgba(38, 42, 48, 0.4);
-}
-
-.row-block__description {
   margin-bottom: 20px;
+  color: rgba(38, 42, 48, 0.4);
 }
