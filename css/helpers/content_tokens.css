@@ -6,9 +6,9 @@
 }
 
 .token__bubble {
-  border-radius: var(--border-radius-half);
   width: 32px;
   height: 32px;
+  border-radius: var(--border-radius-half);
 }
 
 .token__info {
@@ -20,17 +20,17 @@
 }
 
 .color-description {
-  margin-bottom: 2px;
-  color: var(--color-text-secondary);
-  font-size: 11px;
   display: none;
+  margin-bottom: 2px;
+  font-size: 11px;
+  color: var(--color-text-secondary);
 }
 
 .token__info code {
-  background-color: var(--color-bg-secondary);
   padding: 4px 8px;
-  border-radius: 8px;
   font-size: 10px;
+  background-color: var(--color-bg-secondary);
+  border-radius: 8px;
 }
 
 .token__bubble_text_primary {

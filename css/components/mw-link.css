@@ -1,7 +1,7 @@
 .mw-link {
-  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  font-weight: 400;
   color: var(--color-text-accent);
   cursor: pointer;
   width: fit-content;

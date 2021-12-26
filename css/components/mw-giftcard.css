@@ -21,32 +21,32 @@
 
 .mw-giftcard_image {
   height: 329px;
+  border-radius: var(--border-radius-m);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)), url("../../img/gift-image.png");
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: var(--border-radius-m);
 }
 
 .mw-giftcard_heading {
   width: 240px;
   white-space: nowrap;
   overflow: hidden;
+  margin: 12px 0 4px 0;
   text-overflow: ellipsis;
   font-weight: 700;
-  font-size: 18px;
   line-height: 21px;
-  margin: 12px 0 4px 0;
+  font-size: 18px;
 }
 
 .mw-giftcard_badge {
-  display: flex;
-  align-items: center;
-  padding: 8px 16px;
-  border-radius: var(--border-radius-half);
-  width: fit-content;
   position: relative;
   top: 265px;
   left: 91px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 8px 16px;
+  border-radius: var(--border-radius-half);
 }
 
 .mw-giftcard_badge_image {

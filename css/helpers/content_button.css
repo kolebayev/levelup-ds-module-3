@@ -7,9 +7,9 @@
 }
 
 .btn__preview {
-  margin-bottom: 24px;
-  height: 60px;
   display: flex;
   align-items: center;
+  height: 60px;
+  margin-bottom: 24px;
 }
 

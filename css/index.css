@@ -51,19 +51,19 @@ code {
 }
 
 .row-block {
-  padding: 20px 0;
   display: grid;
   gap: 32px;
   grid-template-columns: 3fr 9fr;
-  border-bottom: 1px solid #ebebeb;
+  padding: 20px 0;
   margin-bottom: 24px;
+  border-bottom: 1px solid #ebebeb;
 }
 
 .row-block__name {
+  margin-bottom: 12px;
   font-size: 32px;
   font-weight: 500;
   color: #454a54;
-  margin-bottom: 12px;
 }
 
 .row-block__description {

@@ -1,6 +1,6 @@
 .grid-decoration {
-  margin: 12px 0;
   height: 200px;
+  margin: 12px 0;
   background: repeating-linear-gradient(
     -45deg,
     var(--color-bg-secondary),
