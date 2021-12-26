@@ -28,10 +28,6 @@
   width: 100%;
 }
 
-.icon__specs > div:last-child > div {
-  background-color: var(--color-bg-accent);
-}
-
 .icon__wrapper {
   display: flex;
   align-items: center;
@@ -39,4 +35,12 @@
   width: 42px;
   height: 42px;
   margin-right: 12px;
+}
+
+.icon__wrapper_bg_default {
+  background-color: var(--color-bg-default);
+}
+
+.icon__wrapper_bg_accent {
+  background-color: var(--color-bg-accent);
 }
