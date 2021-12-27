@@ -22,4 +22,6 @@
 
 .mw-link_type_direction-back > svg {
   display: block;
+  width: 12px;
+  height: 24px;
 }
