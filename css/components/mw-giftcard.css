@@ -3,6 +3,11 @@
   cursor: pointer;
 }
 
+.mw-giftcard > * {
+  position: relative;
+  z-index: 100;
+}
+
 .mw-giftcard_status_clear .mw-giftcard_badge {
   display: none;
 }
@@ -19,12 +24,21 @@
   background: var(--color-bg-success);
 }
 
-.mw-giftcard_image {
+.mw-giftcard_image > img {
   height: 329px;
   border-radius: var(--border-radius-m);
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)), url("../../img/gift-image.png");
-  background-position: center;
-  background-repeat: no-repeat;
+}
+
+.mw-giftcard_image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 329px;
+  z-index: 20;
+  border-radius: var(--border-radius-m);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03));
 }
 
 .mw-giftcard_heading {
@@ -40,8 +54,8 @@
 
 .mw-giftcard_badge {
   position: relative;
-  top: 265px;
-  left: 91px;
+  top: -121px;
+  right: -100px;
   display: flex;
   align-items: center;
   width: fit-content;
