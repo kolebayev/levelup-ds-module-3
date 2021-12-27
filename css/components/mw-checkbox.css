@@ -16,12 +16,12 @@
 
 /* создание в label псевдоэлемента before со следующими стилями */
 .mw-checkbox > span::before {
-  width: 20px;
-  height: 20px;
-  margin-right: 12px;
   display: inline-block;
   flex-shrink: 0;
   flex-grow: 0;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
   border: 1px solid var(--color-bg-accent);
   border-radius: var(--border-radius-s);
   background-repeat: no-repeat;
