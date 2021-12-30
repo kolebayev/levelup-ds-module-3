@@ -38,7 +38,11 @@
   height: 329px;
   z-index: 20;
   border-radius: var(--border-radius-m);
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03));
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.03),
+    rgba(0, 0, 0, 0.03)
+  );
 }
 
 .mw-giftcard_heading {
@@ -47,9 +51,6 @@
   overflow: hidden;
   margin: 12px 0 4px 0;
   text-overflow: ellipsis;
-  font-weight: 700;
-  line-height: 21px;
-  font-size: 18px;
 }
 
 .mw-giftcard_subheading {
@@ -79,10 +80,5 @@
 }
 
 .mw-giftcard_badge_text {
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 400px;
-  letter-spacing: 0.02em;
   color: var(--color-text-primary-inverse);
 }
-
