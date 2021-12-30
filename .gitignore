@@ -3,3 +3,5 @@ node_modules
 dist
 build
 .parcel-cache
+*/.DS_Store
+.DS_Store
