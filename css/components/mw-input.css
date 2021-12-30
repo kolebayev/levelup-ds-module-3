@@ -2,7 +2,7 @@
   margin-bottom: 1rem;
 }
 
-.mw-input_input {
+.mw-input__input {
   display: block;
   width: 100%;
   height: 40px;
@@ -17,11 +17,11 @@
   background-clip: padding-box;
 }
 
-.mw-input_input::placeholder {
+.mw-input__input::placeholder {
   color: var(--color-text-secondary);
 }
 
-.mw-input_input:focus {
+.mw-input__input:focus {
   color: var(--color-text-primary);
   background-color: var(--color-bg-primary);
   border-color: var(--color-bg-accent);
@@ -33,7 +33,7 @@
   border-color: var(--color-bg-error);
 }
 
-.mw-input_message {
+.mw-input__message {
   display: none;
   width: 100%;
   margin: 4px 0 0 16px;
@@ -42,7 +42,7 @@
   color: var(--color-text-error);
 }
 
-.mw-input_state_error ~ .mw-input_message {
+.mw-input_state_error ~ .mw-input__message {
   display: block;
 }
 
