@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./css/components/mw-input.css" />
     <link rel="stylesheet" href="./css/components/mw-link.css" />
     <link rel="stylesheet" href="./css/components/mw-giftcard.css" />
+    <link rel="stylesheet" href="./css/components/mw-text.css" />
     <!-- компоненты -->
 
     <!-- витрина -->
@@ -35,6 +36,7 @@
     <link rel="stylesheet" href="./css/helpers/content_input.css" />
     <link rel="stylesheet" href="./css/helpers/content_link.css" />
     <link rel="stylesheet" href="./css/helpers/content_giftcard.css" />
+    <link rel="stylesheet" href="./css/helpers/content_text.css" />
     <!-- витрина -->
 
     <link
@@ -46,8 +48,8 @@
   <body>
     <header>
       <div class="header">
-        <div class="header__left">My Wish — Components</div>
-        <div class="header__rigth">Демо HTML Акакдемии</div>
+        <div class="header__left">My&#160;Wish&#160;—&#160;Components</div>
+        <div class="header__rigth">Демо&#160;HTML&#160;Акакдемии</div>
       </div>
     </header>
     <main>
@@ -201,8 +203,105 @@
       </div>
       <!-- токены -->
 
+      <!-- текст -->
+      <div class="row-block">
+        <div class="row-block__info">
+          <div class="row-block__name">Текстовые стили</div>
+          <div class="row-block__description">mw-text</div>
+        </div>
+
+        <div>
+          <div class="row-block__description">
+            Текстовый стиль собирается из нескольких классов в зависимости от
+            свойств.
+          </div>
+          <div class="text-wrapper">
+            <div
+              class="
+                mw-text
+                mw-text_size_2xl
+                mw-text_line-height_m
+                mw-text_weight_bold
+                mw-text_spacing_m
+              "
+            >
+              Заголовок 1
+            </div>
+            <div>
+              <pre><code class="language-html">&lt;div class="mw-text mw-text_size_2xl mw-text_line-height_m mw-text_weight_bold mw-text_spacing_m"&gt;...&lt;/div&gt;</code></pre>
+            </div>
+          </div>
+          <div class="text-wrapper">
+            <div
+              class="
+                mw-text
+                mw-text_size_s
+                mw-text_line-height_m
+                mw-text_weight_bold
+                mw-text_spacing_m
+              "
+            >
+              Заголовок 2
+            </div>
+            <div>
+              <pre><code class="language-html">&lt;div class="mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_bold mw-text_spacing_m"&gt;...&lt;/div&gt;</code></pre>
+            </div>
+          </div>
+          <div class="text-wrapper">
+            <div
+              class="
+                mw-text
+                mw-text_size_s
+                mw-text_line-height_m
+                mw-text_weight_medium
+                mw-text_spacing_m
+              "
+            >
+              Светлый текст на темном фоне
+            </div>
+            <div>
+              <pre><code class="language-html">&lt;div class="mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_medium mw-text_spacing_m"&gt;...&lt;/div&gt;</code></pre>
+            </div>
+          </div>
+          <div class="text-wrapper">
+            <div
+              class="
+                mw-text
+                mw-text_size_s
+                mw-text_line-height_m
+                mw-text_weight_regular
+                mw-text_spacing_m
+              "
+            >
+              Основной текст
+            </div>
+            <div>
+              <pre><code class="language-html">&lt;div class="mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_regular mw-text_spacing_m"&gt;...&lt;/div&gt;</code></pre>
+            </div>
+          </div>
+          <div class="text-wrapper">
+            <div
+              class="
+                mw-text
+                mw-text_size_xs
+                mw-text_line-height_m
+                mw-text_weight_regular
+                mw-text_spacing_m
+              "
+            >
+              Подписи
+            </div>
+            <div>
+              <pre><code class="language-html">&lt;div class="mw-text mw-text_size_xs mw-text_line-height_m mw-text_weight_regular mw-text_spacing_m"&gt;...&lt;/div&gt;</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- текст -->
+
       <!-- сетка на проекте -->
       <div class="row-block">
+        ...
         <div class="row-block__info">
           <div class="row-block__name">Сетка</div>
           <div class="row-block__description">mw-grid</div>
@@ -218,7 +317,7 @@
             <div></div>
             <div></div>
           </div>
-          <pre><code class="language-html">&lt;div class="mw-grid mw-grid_col_4 mw-grid_col-gap_m"&gt;&lt;/div&gt;</code></pre>
+          <pre><code class="language-html">&lt;div class="mw-grid mw-grid_col_4 mw-grid_col-gap_m"&gt;...&lt;/div&gt;</code></pre>
         </div>
       </div>
       <!-- сетка на проекте -->
@@ -326,7 +425,7 @@
                   class="mw-icon mw-icon_name_at mw-icon_view_primary size"
                 ></div>
               </div>
-              <pre><code class="language-html">&lt;div class="mw-icon mw-icon_name_at mw-icon_view_primary"&gt;&lt;/div&gt;</code></pre>
+              <pre><code class="language-html">&lt;div class="mw-icon mw-icon_name_at mw-icon_view_primary"&gt;...&lt;/div&gt;</code></pre>
             </div>
 
             <div>
@@ -335,7 +434,7 @@
                   class="mw-icon mw-icon_name_search mw-icon_view_accent"
                 ></div>
               </div>
-              <pre><code class="language-html">&lt;div class="mw-icon mw-icon_name_search mw-icon_view_accent"&gt;&lt;/div&gt;</code></pre>
+              <pre><code class="language-html">&lt;div class="mw-icon mw-icon_name_search mw-icon_view_accent"&gt;...&lt;/div&gt;</code></pre>
             </div>
 
             <div>
@@ -344,7 +443,7 @@
                   class="mw-icon mw-icon_name_at mw-icon_view_primary-inverse"
                 ></div>
               </div>
-              <pre><code class="language-html">&lt;div class="mw-icon mw-icon_name_at mw-icon_view_primary-inverse"&gt;&lt;/div&gt;</code></pre>
+              <pre><code class="language-html">&lt;div class="mw-icon mw-icon_name_at mw-icon_view_primary-inverse"&gt;...&lt;/div&gt;</code></pre>
             </div>
           </div>
         </div>
@@ -461,11 +560,19 @@
                   mw-icon mw-icon_name_present mw-icon_view_primary-inverse
                 "
               ></div>
-              <span>Кнопка</span>
+              <span
+                class="
+                  mw-text
+                  mw-text_size_s
+                  mw-text_line-height_m
+                  mw-text_weight_medium
+                "
+                >Кнопка</span
+              >
             </button>
           </div>
           <div>
-            <pre><code id="button_code" class="language-html">&lt;div class="mw-button mw-button_size_m mw-button_view_primary mw-button_has-icon_no-icon"&gt;&lt;/div&gt;</code></pre>
+            <pre><code id="button_code" class="language-html">&lt;div class="mw-button mw-button_size_m mw-button_view_primary mw-button_has-icon_no-icon"&gt;...&lt;/div&gt;</code></pre>
           </div>
         </div>
       </div>
@@ -493,25 +600,51 @@
                   value="all"
                   checked
                 />
-                <label for="radio-all">Все</label>
+                <label
+                  for="radio-all"
+                  class="
+                    mw-text
+                    mw-text_size_s
+                    mw-text_line-height_m
+                    mw-text_weight_medium
+                  "
+                  >Все</label
+                >
                 <input
                   type="radio"
                   id="radio-sport"
                   name="radio-categories"
                   value="sport"
                 />
-                <label for="radio-sport">Спорт</label>
+                <label
+                  for="radio-sport"
+                  class="
+                    mw-text
+                    mw-text_size_s
+                    mw-text_line-height_m
+                    mw-text_weight_medium
+                  "
+                  >Спорт</label
+                >
                 <input
                   type="radio"
                   id="radio-books"
                   name="radio-categories"
                   value="books"
                 />
-                <label for="radio-books">Книги</label>
+                <label
+                  for="radio-books"
+                  class="
+                    mw-text
+                    mw-text_size_s
+                    mw-text_line-height_m
+                    mw-text_weight_medium
+                  "
+                  >Книги</label
+                >
               </div>
               <pre><code class="language-html">&lt;div class="mw-chips mw-chips_size_m"&gt;...&lt;/div&gt;</code></pre>
             </div>
-
           </div>
         </div>
       </div>
@@ -533,28 +666,34 @@
             <div class="checkbox__wrapper">
               <label class="mw-checkbox">
                 <input type="checkbox" value="value" />
-                <span>Выбрать этот пункт</span>
+                <span
+                  class="
+                    mw-text
+                    mw-text_size_s
+                    mw-text_line-height_m
+                    mw-text_weight_regular
+                  "
+                  >Выбрать</span
+                >
               </label>
               <div>Активный</div>
-              <pre><code class="language-html">
-    &lt;label class="mw-checkbox"&gt;
-        &lt;input type="checkbox" value="value-1"&gt;
-        &lt;span&gt;Выбрать этот пункт&lt;/span&gt;
-    &lt;/label&gt;
-                        </code></pre>
+              <pre><code class="language-html">&lt;label class="mw-checkbox"&gt;...&lt;/label&gt;</code></pre>
             </div>
             <div class="checkbox__wrapper">
               <label class="mw-checkbox mw-checkbox_is-disabled_true">
                 <input type="checkbox" value="value" disabled />
-                <span>Выбрать этот пункт</span>
+                <span
+                  class="
+                    mw-text
+                    mw-text_size_s
+                    mw-text_line-height_m
+                    mw-text_weight_regular
+                  "
+                  >Выбрать</span
+                >
               </label>
               <div>Неактивный</div>
-              <pre><code class="language-html">
-    &lt;label class="mw-checkbox"&gt;
-        &lt;input type="checkbox" value="value-1" disabled&gt;
-        &lt;span&gt;Выбрать этот пункт&lt;/span&gt;
-    &lt;/label&gt;
-                        </code></pre>
+              <pre><code class="language-html">&lt;label class="mw-checkbox"&gt;...&lt;/label&gt;</code></pre>
             </div>
           </div>
         </div>
@@ -606,7 +745,14 @@
                 name="name"
                 id="preview-input"
               />
-              <p class="mw-input_message">Укажите город.</p>
+              <p
+                class="
+                  mw-input_message
+                  mw-text_size_xs mw-text_line-height_s mw-text_weight_regular
+                "
+              >
+                Укажите город.
+              </p>
             </div>
           </div>
 
@@ -646,8 +792,9 @@
                   clip-rule="evenodd"
                   d="M7.6402 5.2318c.4243.3536.4816.9841.128 1.4084L3.3017 12l4.4665 5.3598c.3536.4243.2963 1.0549-.128 1.4084-.4243.3536-1.0549.2963-1.4084-.128l-5-6a1 1 0 0 1 0-1.2804l5-6c.3535-.4242.9841-.4816 1.4084-.128Z"
                   fill="#7D00FB"
-                /></svg
-              >ссылка
+                />
+              </svg>
+              ссылка
             </div>
             <p>c направлением</p>
             <div>
@@ -667,17 +814,42 @@
 
         <div>
           <div class="row-block__description">
-            Карточка подарка. На проекте рекомендуется использовать в связке с mw-grid
+            Карточка подарка. На проекте рекомендуется использовать в связке с
+            mw-grid
           </div>
           <div class="giftcard-preview">
             <div class="mw-giftcard mw-giftcard_status_clear">
               <div class="mw-giftcard_image">
-                <img src="./img/gift-image.png" srcset="./img/gift-image.png 2x" alt="gift image" />
+                <img
+                  src="./img/gift-image.png"
+                  srcset="./img/gift-image.png 2x"
+                  alt="gift image"
+                />
               </div>
-              <div class="mw-giftcard_heading">
+              <div
+                class="
+                  mw-giftcard_heading
+                  mw-text
+                  mw-text_size_s
+                  mw-text_line-height_m
+                  mw-text_weight_bold
+                  mw-text_spacing_m
+                "
+              >
                 MIZU бутылка для воды металлическая
               </div>
-              <div class="mw-giftcard_subheading">Спорт</div>
+              <div
+                class="
+                  mw-giftcard_subheading
+                  mw-text
+                  mw-text_size_s
+                  mw-text_line-height_m
+                  mw-text_weight_regular
+                  mw-text_spacing_m
+                "
+              >
+                Спорт
+              </div>
               <div class="mw-giftcard_badge">
                 <div
                   class="
@@ -685,17 +857,50 @@
                     mw-icon mw-icon_name_miracle mw-icon_view_primary-inverse
                   "
                 ></div>
-                <div class="mw-giftcard_badge_text"></div>
+                <div
+                  class="
+                    mw-giftcard_badge_text
+                    mw-text
+                    mw-text_size_s
+                    mw-text_line-height_m
+                    mw-text_weight_medium
+                    mw-text_spacing_m
+                  "
+                ></div>
               </div>
             </div>
             <div class="mw-giftcard mw-giftcard_status_is-giving">
               <div class="mw-giftcard_image">
-                <img src="./img/gift-image-2.png" srcset="./img/gift-image-2@2x.png 2x" alt="gift image" />
+                <img
+                  src="./img/gift-image-2.png"
+                  srcset="./img/gift-image-2@2x.png 2x"
+                  alt="gift image"
+                />
               </div>
-              <div class="mw-giftcard_heading">
+              <div
+                class="
+                  mw-giftcard_heading
+                  mw-text
+                  mw-text_size_s
+                  mw-text_line-height_m
+                  mw-text_weight_bold
+                  mw-text_spacing_m
+                "
+              >
                 4K UHD Smart LED проек...
               </div>
-              <div class="mw-giftcard_subheading">Техника</div>
+              <div
+                class="
+                  mw-giftcard_subheading
+                  mw-text
+                  mw-text_size_s
+                  mw-text_line-height_m
+                  mw-text_weight_regular
+                  mw-text_spacing_m
+                "
+              >
+                Техника
+              </div>
               <div class="mw-giftcard_badge">
                 <div
                   class="
@@ -703,17 +908,52 @@
                     mw-icon mw-icon_name_miracle mw-icon_view_primary-inverse
                   "
                 ></div>
-                <div class="mw-giftcard_badge_text">Уже дарят</div>
+                <div
+                  class="
+                    mw-giftcard_badge_text
+                    mw-text
+                    mw-text_size_s
+                    mw-text_line-height_m
+                    mw-text_weight_medium
+                    mw-text_spacing_m
+                  "
+                >
+                  Уже дарят
+                </div>
               </div>
             </div>
             <div class="mw-giftcard mw-giftcard_status_you-giving">
               <div class="mw-giftcard_image">
-                <img src="./img/gift-image-3.png" srcset="./img/gift-image-3@2x.png 2x" alt="gift image" />
+                <img
+                  src="./img/gift-image-3.png"
+                  srcset="./img/gift-image-3@2x.png 2x"
+                  alt="gift image"
+                />
               </div>
-              <div class="mw-giftcard_heading">
+              <div
+                class="
+                  mw-giftcard_heading
+                  mw-text
+                  mw-text_size_s
+                  mw-text_line-height_m
+                  mw-text_weight_bold
+                  mw-text_spacing_m
+                "
+              >
                 Мультипекарь REDMOND
               </div>
-              <div class="mw-giftcard_subheading">Техника</div>
+              <div
+                class="
+                  mw-giftcard_subheading
+                  mw-text
+                  mw-text_size_s
+                  mw-text_line-height_m
+                  mw-text_weight_regular
+                  mw-text_spacing_m
+                "
+              >
+                Техника
+              </div>
               <div class="mw-giftcard_badge">
                 <div
                   class="
@@ -721,18 +961,53 @@
                     mw-icon mw-icon_name_hand mw-icon_view_primary-inverse
                   "
                 ></div>
-                <div class="mw-giftcard_badge_text">Вы дарите</div>
+                <div
+                  class="
+                    mw-giftcard_badge_text
+                    mw-text
+                    mw-text_size_s
+                    mw-text_line-height_m
+                    mw-text_weight_medium
+                    mw-text_spacing_m
+                  "
+                >
+                  Вы дарите
+                </div>
               </div>
             </div>
 
             <div class="mw-giftcard mw-giftcard_status_already-given">
               <div class="mw-giftcard_image">
-                <img src="./img/gift-image-4.png" srcset="./img/gift-image-4@2x.png 2x" alt="gift image" />
+                <img
+                  src="./img/gift-image-4.png"
+                  srcset="./img/gift-image-4@2x.png 2x"
+                  alt="gift image"
+                />
               </div>
-              <div class="mw-giftcard_heading">
+              <div
+                class="
+                  mw-giftcard_heading
+                  mw-text
+                  mw-text_size_s
+                  mw-text_line-height_m
+                  mw-text_weight_bold
+                  mw-text_spacing_m
+                "
+              >
                 Монстера
               </div>
-              <div class="mw-giftcard_subheading">Дом и уют</div>
+              <div
+                class="
+                  mw-giftcard_subheading
+                  mw-text
+                  mw-text_size_s
+                  mw-text_line-height_m
+                  mw-text_weight_regular
+                  mw-text_spacing_m
+                "
+              >
+                Дом и уют
+              </div>
               <div class="mw-giftcard_badge">
                 <div
                   class="
@@ -740,7 +1015,18 @@
                     mw-icon mw-icon_name_present mw-icon_view_primary-inverse
                   "
                 ></div>
-                <div class="mw-giftcard_badge_text">Подарили</div>
+                <div
+                  class="
+                    mw-giftcard_badge_text
+                    mw-text
+                    mw-text_size_s
+                    mw-text_line-height_m
+                    mw-text_weight_medium
+                    mw-text_spacing_m
+                  "
+                >
+                  Подарили
+                </div>
               </div>
             </div>
           </div>
