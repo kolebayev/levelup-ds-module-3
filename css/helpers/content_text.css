@@ -4,6 +4,10 @@
   margin-bottom: 24px;
 }
 
+.text-wrapper:last-child {
+  margin-bottom: 0;
+}
+
 .text-wrapper > div:first-child {
   margin-bottom: 8px;
 }

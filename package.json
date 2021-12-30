@@ -5,7 +5,7 @@
   "source": "index.html",
   "scripts": {
     "test": "htmlhint ./*.html ./build/*.html",
-    "start": "parcel --no-source-maps",
+    "start": "parcel --no-source-maps --no-cache",
     "build": "parcel build"
   },
   "author": "Ilya Kolebayev",

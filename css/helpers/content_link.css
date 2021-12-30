@@ -5,3 +5,7 @@
   align-items: center;
   margin-bottom: 24px;
 }
+
+.link-wrapper:last-child {
+  margin-bottom: 0;
+}

@@ -5,6 +5,10 @@
   margin-bottom: 20px;
 }
 
+.token:last-child {
+  margin-bottom: 0;
+}
+
 .token__bubble {
   width: 32px;
   height: 32px;
