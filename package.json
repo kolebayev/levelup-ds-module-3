@@ -1,7 +1,7 @@
 {
-  "name": "levelup-ds-module-3",
+  "name": "My Wish",
   "version": "1.0.0",
-  "description": "",
+  "description": "Учебный проект HTML Академии",
   "source": "index.html",
   "scripts": {
     "test": "htmlhint ./*.html ./build/*.html",
