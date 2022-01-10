@@ -1,6 +1,7 @@
-.giftcard-preview {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  row-gap: 12px;
-  margin-bottom: 24px;
+.giftcard-preview pre {
+  margin-bottom: 12px;
+}
+
+.giftcard-preview > div:first-child {
+  margin-bottom: 40px;
 }

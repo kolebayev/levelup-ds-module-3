@@ -8,28 +8,31 @@
   z-index: 100;
 }
 
-.mw-giftcard_status_clear .mw-giftcard_badge {
+.mw-giftcard_status_clear .mw-giftcard__badge {
   display: none;
 }
 
-.mw-giftcard_status_is-giving .mw-giftcard_badge {
+.mw-giftcard_status_is-giving .mw-giftcard__badge {
   background: var(--color-bg-accent);
+  color: var(--color-text-primary-inverse);
 }
 
-.mw-giftcard_status_you-giving .mw-giftcard_badge {
+.mw-giftcard_status_you-giving .mw-giftcard__badge {
   background: var(--color-bg-warning);
+  color: var(--color-text-primary-inverse);
 }
 
-.mw-giftcard_status_already-given .mw-giftcard_badge {
+.mw-giftcard_status_already-given .mw-giftcard__badge {
   background: var(--color-bg-success);
+  color: var(--color-text-primary-inverse);
 }
 
-.mw-giftcard_image > img {
+.mw-giftcard__image > img {
   height: 329px;
   border-radius: var(--border-radius-m);
 }
 
-.mw-giftcard_image::before {
+.mw-giftcard__image::before {
   content: "";
   position: absolute;
   top: 0;
@@ -45,7 +48,7 @@
   );
 }
 
-.mw-giftcard_heading {
+.mw-giftcard__heading {
   width: 240px;
   white-space: nowrap;
   overflow: hidden;
@@ -53,7 +56,7 @@
   text-overflow: ellipsis;
 }
 
-.mw-giftcard_subheading {
+.mw-giftcard__subheading {
   width: 240px;
   white-space: nowrap;
   overflow: hidden;
@@ -62,7 +65,7 @@
   font-size: 18px;
 }
 
-.mw-giftcard_badge {
+.mw-giftcard__badge {
   position: relative;
   top: -121px;
   right: -100px;
@@ -73,12 +76,8 @@
   border-radius: var(--border-radius-half);
 }
 
-.mw-giftcard_badge_image {
+.mw-giftcard__badge-image {
   width: 24px;
   height: 24px;
   margin-right: 8px;
-}
-
-.mw-giftcard_badge_text {
-  color: var(--color-text-primary-inverse);
 }
