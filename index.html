@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/components/mw-giftcard.css" />
     <link rel="stylesheet" href="./css/components/mw-text.css" />
     <link rel="stylesheet" href="./css/components/mw-tabs.css" />
+    <link rel="stylesheet" href="./css/components/mw-wishlist-preview.css" />
     <!-- компоненты -->
 
     <!-- витрина -->
@@ -33,6 +34,7 @@
     <link rel="stylesheet" href="./css/helpers/content_giftcard.css" />
     <link rel="stylesheet" href="./css/helpers/content_text.css" />
     <link rel="stylesheet" href="./css/helpers/content_tabs.css" />
+    <link rel="stylesheet" href="./css/helpers/content_wishlist-preview.css" />
     <!-- витрина -->
 
     <link rel="stylesheet" href="./css/stackoverflow-light.min.css" />
@@ -169,9 +171,18 @@
             <div class="token">
               <div class="token__bubble token__bubble_border-radius_m"></div>
               <div class="token__info">
-                <div class="color-name">16px</div>
+                <div class="color-name">8px</div>
                 <div class="color-description">Акцентный</div>
                 <code>--border-radius-m</code>
+              </div>
+            </div>
+
+            <div class="token">
+              <div class="token__bubble token__bubble_border-radius_l"></div>
+              <div class="token__info">
+                <div class="color-name">16px</div>
+                <div class="color-description">Акцентный</div>
+                <code>--border-radius-l</code>
               </div>
             </div>
 
@@ -868,17 +879,20 @@
         </div>
 
         <div>
-          <div class="row-block__description">Выбор одного значения из множества. В отличие от chips работает для более высокоуровневого выбора на странице</div>
+          <div class="row-block__description">
+            Выбор одного значения из множества. В отличие от chips работает для
+            более высокоуровневого выбора на странице
+          </div>
           <div class="tabs-preview">
             <div class="mw-tabs">
               <div class="mw-tabs__center-wrapper">
                 <input
-                type="radio"
-                class="mw-tabs__tab"
-                name="mw-tabs"
-                value="1"
-                id="tab1"
-                checked
+                  type="radio"
+                  class="mw-tabs__tab"
+                  name="mw-tabs"
+                  value="1"
+                  id="tab1"
+                  checked
                 />
                 <label for="tab1">Ваши вишлисты</label>
                 <input
@@ -894,10 +908,55 @@
             </div>
             <pre><code class="language-html">&lt;div class="mw-tabs"&gt;...&lt;/div&gt;</code></pre>
           </div>
-          
         </div>
       </div>
       <!-- табы -->
+
+      <!-- вишлист превью -->
+      <div class="row-block">
+        <div class="row-block__info">
+          <div class="row-block__name">Превью вишлиста</div>
+          <div class="row-block__description">mw-wishlist-preview</div>
+        </div>
+
+        <div>
+          <div class="row-block__description">
+            В интерфейсе обычно отображается в обвзяке mw-grid
+          </div>
+          <div class="wishlist-preview">
+            <div class="mw-wishlist-preview">
+              <div class="mw-wishlist-preview__images">
+                  <img
+                    src="./img/wishlist-preview-img-01.png"
+                    srcset="./img/wishlist-preview-img-01@2x.png 2x"
+                    alt="wishlist preview image"
+                  />
+                  <img
+                    src="./img/wishlist-preview-img-02.png"
+                    srcset="./img/wishlist-preview-img-02@2x.png 2x"
+                    alt="wishlist preview image"
+                    class="mw-wishlist-preview__image"
+                  />
+                  <img
+                    src="./img/wishlist-preview-img-03.png"
+                    srcset="./img/wishlist-preview-img-03@2x.png 2x"
+                    alt="wishlist preview image"
+                    class="mw-wishlist-preview__image"
+                  />
+                  <img
+                    src="./img/wishlist-preview-img-04.png"
+                    srcset="./img/wishlist-preview-img-04@2x.png 2x"
+                    alt="wishlist preview image"
+                    class="mw-wishlist-preview__image"
+                  />
+              </div>
+              <p class="mw-wishlist-preview__name">Новый год</p>
+            </div>
+            <pre><code class="language-html">&lt;div class="mw-wishlist-preview"&gt;...&lt;/div&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+      <!-- вишлист превью -->
     </main>
     <script src="./js/highlight.min.js"></script>
     <script>

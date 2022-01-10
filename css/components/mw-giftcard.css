@@ -26,7 +26,7 @@
 
 .mw-giftcard_image > img {
   height: 329px;
-  border-radius: var(--border-radius-m);
+  border-radius: var(--border-radius-l);
 }
 
 .mw-giftcard_image::before {
@@ -37,7 +37,7 @@
   width: 240px;
   height: 329px;
   z-index: 20;
-  border-radius: var(--border-radius-m);
+  border-radius: var(--border-radius-l);
   background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.03),

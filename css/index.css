@@ -15,7 +15,8 @@
   --color-text-error: #e94343;
   /* скругления */
   --border-radius-s: 6px;
-  --border-radius-m: 16px;
+  --border-radius-m: 8px;
+  --border-radius-l: 16px;
   --border-radius-half: 99rem;
   /* спешл для контролов */
   --color-control-bg-primary-hover: #962eff;
