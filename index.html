@@ -389,6 +389,13 @@
               ></div>
               <div class="icon__description">twitter</div>
             </div>
+
+            <div>
+              <div
+                class="mw-icon mw-icon_name_calendar mw-icon_view_primary"
+              ></div>
+              <div class="icon__description">calendar</div>
+            </div>
           </div>
           <div class="row-block__description">Визуальный стиль</div>
           <div class="icon__specs">
@@ -403,9 +410,7 @@
 
             <div>
               <div class="icon__wrapper icon__wrapper_bg_default">
-                <div
-                  class="mw-icon mw-icon_name_search mw-icon_view_accent"
-                ></div>
+                <div class="mw-icon mw-icon_name_at mw-icon_view_accent"></div>
               </div>
               <pre><code class="language-html">&lt;div class="mw-icon mw-icon_name_search mw-icon_view_accent"&gt;...&lt;/div&gt;</code></pre>
             </div>
@@ -417,6 +422,20 @@
                 ></div>
               </div>
               <pre><code class="language-html">&lt;div class="mw-icon mw-icon_name_at mw-icon_view_primary-inverse"&gt;...&lt;/div&gt;</code></pre>
+            </div>
+
+            <div>
+              <div class="icon__wrapper">
+                <div class="mw-icon mw-icon_name_at mw-icon_view_warning"></div>
+              </div>
+              <pre><code class="language-html">&lt;div class="mw-icon mw-icon_name_at mw-icon_view_warning"&gt;...&lt;/div&gt;</code></pre>
+            </div>
+
+            <div>
+              <div class="icon__wrapper">
+                <div class="mw-icon mw-icon_name_at mw-icon_view_error"></div>
+              </div>
+              <pre><code class="language-html">&lt;div class="mw-icon mw-icon_name_at mw-icon_view_error"&gt;...&lt;/div&gt;</code></pre>
             </div>
           </div>
         </div>
@@ -751,122 +770,244 @@
             mw-grid
           </div>
           <div class="giftcard-preview">
-            <div class="mw-giftcard mw-giftcard_status_clear">
-              <div class="mw-giftcard_image">
-                <img
-                  src="./img/gift-image.png"
-                  srcset="./img/gift-image.png 2x"
-                  alt="gift image"
-                />
-              </div>
-              <div
-                class="mw-giftcard_heading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_bold mw-text_spacing_m"
-              >
-                MIZU бутылка для воды металлическая
-              </div>
-              <div
-                class="mw-giftcard_subheading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_regular mw-text_spacing_m"
-              >
-                Спорт
-              </div>
-              <div class="mw-giftcard_badge">
+            <div>
+              <div class="mw-giftcard mw-giftcard_status_clear">
+                <div class="mw-giftcard__image">
+                  <img
+                    src="./img/gift-image.png"
+                    srcset="./img/gift-image.png 2x"
+                    alt="gift image"
+                  />
+                </div>
                 <div
-                  class="mw-giftcard_badge_image mw-icon mw-icon_name_miracle mw-icon_view_primary-inverse"
-                ></div>
-                <div
-                  class="mw-giftcard_badge_text mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_medium mw-text_spacing_m"
-                ></div>
-              </div>
-            </div>
-            <div class="mw-giftcard mw-giftcard_status_is-giving">
-              <div class="mw-giftcard_image">
-                <img
-                  src="./img/gift-image-2.png"
-                  srcset="./img/gift-image-2@2x.png 2x"
-                  alt="gift image"
-                />
-              </div>
-              <div
-                class="mw-giftcard_heading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_bold mw-text_spacing_m"
-              >
-                4K UHD Smart LED проек...
-              </div>
-              <div
-                class="mw-giftcard_subheading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_regular mw-text_spacing_m"
-              >
-                Техника
-              </div>
-              <div class="mw-giftcard_badge">
-                <div
-                  class="mw-giftcard_badge_image mw-icon mw-icon_name_miracle mw-icon_view_primary-inverse"
-                ></div>
-                <div
-                  class="mw-giftcard_badge_text mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_medium mw-text_spacing_m"
+                  class="mw-giftcard__heading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_bold mw-text_spacing_m"
                 >
-                  Уже дарят
+                  MIZU бутылка для воды металлическая
+                </div>
+                <div
+                  class="mw-giftcard__subheading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_regular mw-text_spacing_m"
+                >
+                  Спорт
+                </div>
+                <div
+                  class="mw-giftcard__badge mw-giftcard__badge_position_bottom-right"
+                >
+                  <div
+                    class="mw-giftcard__badge-image mw-icon mw-icon_name_miracle mw-icon_view_primary-inverse"
+                  ></div>
+                  <div
+                    class="mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_medium mw-text_spacing_m"
+                  ></div>
                 </div>
               </div>
+              <pre><code class="language-html">&lt;div class="mw-giftcard mw-giftcard_status_clear"&gt;...&lt;/div&gt;</code></pre>
             </div>
-            <div class="mw-giftcard mw-giftcard_status_you-giving">
-              <div class="mw-giftcard_image">
-                <img
-                  src="./img/gift-image-3.png"
-                  srcset="./img/gift-image-3@2x.png 2x"
-                  alt="gift image"
-                />
-              </div>
-              <div
-                class="mw-giftcard_heading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_bold mw-text_spacing_m"
-              >
-                Мультипекарь REDMOND
-              </div>
-              <div
-                class="mw-giftcard_subheading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_regular mw-text_spacing_m"
-              >
-                Техника
-              </div>
-              <div class="mw-giftcard_badge">
+            <div>
+              <div class="mw-giftcard mw-giftcard_status_is-giving">
+                <div class="mw-giftcard__image">
+                  <img
+                    src="./img/gift-image-2.png"
+                    srcset="./img/gift-image-2@2x.png 2x"
+                    alt="gift image"
+                  />
+                </div>
                 <div
-                  class="mw-giftcard_badge_image mw-icon mw-icon_name_hand mw-icon_view_primary-inverse"
-                ></div>
-                <div
-                  class="mw-giftcard_badge_text mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_medium mw-text_spacing_m"
+                  class="mw-giftcard__heading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_bold mw-text_spacing_m"
                 >
-                  Вы дарите
+                  4K UHD Smart LED проек...
+                </div>
+                <div
+                  class="mw-giftcard__subheading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_regular mw-text_spacing_m"
+                >
+                  Техника
+                </div>
+                <div
+                  class="mw-giftcard__badge mw-giftcard__badge_position_bottom-right"
+                >
+                  <div
+                    class="mw-giftcard__badge-image mw-icon mw-icon_name_miracle mw-icon_view_primary-inverse"
+                  ></div>
+                  <div
+                    class="mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_medium mw-text_spacing_m"
+                  >
+                    Уже дарят
+                  </div>
                 </div>
               </div>
+              <pre><code class="language-html">&lt;div class="mw-giftcard mw-giftcard_status_is-giving"&gt;...&lt;/div&gt;</code></pre>
             </div>
-            <div class="mw-giftcard mw-giftcard_status_already-given">
-              <div class="mw-giftcard_image">
-                <img
-                  src="./img/gift-image-4.png"
-                  srcset="./img/gift-image-4@2x.png 2x"
-                  alt="gift image"
-                />
-              </div>
-              <div
-                class="mw-giftcard_heading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_bold mw-text_spacing_m"
-              >
-                Монстера
-              </div>
-              <div
-                class="mw-giftcard_subheading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_regular mw-text_spacing_m"
-              >
-                Дом и уют
-              </div>
-              <div class="mw-giftcard_badge">
+            <div>
+              <div class="mw-giftcard mw-giftcard_status_you-giving">
+                <div class="mw-giftcard__image">
+                  <img
+                    src="./img/gift-image-3.png"
+                    srcset="./img/gift-image-3@2x.png 2x"
+                    alt="gift image"
+                  />
+                </div>
                 <div
-                  class="mw-giftcard_badge_image mw-icon mw-icon_name_present mw-icon_view_primary-inverse"
-                ></div>
-                <div
-                  class="mw-giftcard_badge_text mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_medium mw-text_spacing_m"
+                  class="mw-giftcard__heading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_bold mw-text_spacing_m"
                 >
-                  Подарили
+                  Мультипекарь REDMOND
+                </div>
+                <div
+                  class="mw-giftcard__subheading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_regular mw-text_spacing_m"
+                >
+                  Техника
+                </div>
+                <div
+                  class="mw-giftcard__badge mw-giftcard__badge_position_bottom-right"
+                >
+                  <div
+                    class="mw-giftcard__badge-image mw-icon mw-icon_name_hand mw-icon_view_primary-inverse"
+                  ></div>
+                  <div
+                    class="mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_medium mw-text_spacing_m"
+                  >
+                    Вы дарите
+                  </div>
                 </div>
               </div>
+              <pre><code class="language-html">&lt;div class="mw-giftcard mw-giftcard_status_you-giving"&gt;...&lt;/div&gt;</code></pre>
+            </div>
+            <div>
+              <div class="mw-giftcard mw-giftcard_status_already-given">
+                <div class="mw-giftcard__image">
+                  <img
+                    src="./img/gift-image-4.png"
+                    srcset="./img/gift-image-4@2x.png 2x"
+                    alt="gift image"
+                  />
+                </div>
+                <div
+                  class="mw-giftcard__heading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_bold mw-text_spacing_m"
+                >
+                  Монстера
+                </div>
+                <div
+                  class="mw-giftcard__subheading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_regular mw-text_spacing_m"
+                >
+                  Дом и уют
+                </div>
+                <div
+                  class="mw-giftcard__badge mw-giftcard__badge_position_bottom-right"
+                >
+                  <div
+                    class="mw-giftcard__badge-image mw-icon mw-icon_name_present mw-icon_view_primary-inverse"
+                  ></div>
+                  <div
+                    class="mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_medium mw-text_spacing_m"
+                  >
+                    Подарили
+                  </div>
+                </div>
+              </div>
+              <pre><code class="language-html">&lt;div class="mw-giftcard mw-giftcard_status_already-given"&gt;...&lt;/div&gt;</code></pre>
+            </div>
+            <div>
+              <div class="mw-giftcard mw-giftcard_status_date-planned">
+                <div class="mw-giftcard__image">
+                  <img
+                    src="./img/gift-image-4.png"
+                    srcset="./img/gift-image-4@2x.png 2x"
+                    alt="gift image"
+                  />
+                </div>
+                <div
+                  class="mw-giftcard__heading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_bold mw-text_spacing_m"
+                >
+                  Монстера
+                </div>
+                <div
+                  class="mw-giftcard__subheading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_regular mw-text_spacing_m"
+                >
+                  Дом и уют
+                </div>
+                <div
+                  class="mw-giftcard__badge mw-giftcard__badge_position_top-left"
+                >
+                  <div
+                    class="mw-giftcard__badge-image mw-icon mw-icon_name_calendar mw-icon_view_accent"
+                  ></div>
+                  <div
+                    class="mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_medium mw-text_spacing_m"
+                  >
+                    18.07
+                  </div>
+                </div>
+              </div>
+              <pre><code class="language-html">&lt;div class="mw-giftcard mw-giftcard_status_date-planned"&gt;...&lt;/div&gt;</code></pre>
+            </div>
+            <div>
+              <div class="mw-giftcard mw-giftcard_status_date-coming">
+                <div class="mw-giftcard__image">
+                  <img
+                    src="./img/gift-image-4.png"
+                    srcset="./img/gift-image-4@2x.png 2x"
+                    alt="gift image"
+                  />
+                </div>
+                <div
+                  class="mw-giftcard__heading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_bold mw-text_spacing_m"
+                >
+                  Монстера
+                </div>
+                <div
+                  class="mw-giftcard__subheading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_regular mw-text_spacing_m"
+                >
+                  Дом и уют
+                </div>
+                <div
+                  class="mw-giftcard__badge mw-giftcard__badge_position_top-left"
+                >
+                  <div
+                    class="mw-giftcard__badge-image mw-icon mw-icon_name_calendar mw-icon_view_warning"
+                  ></div>
+                  <div
+                    class="mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_medium mw-text_spacing_m"
+                  >
+                    23.03
+                  </div>
+                </div>
+              </div>
+              <pre><code class="language-html">&lt;div class="mw-giftcard mw-giftcard_status_date-coming"&gt;...&lt;/div&gt;</code></pre>
+            </div>
+            <div>
+              <div class="mw-giftcard mw-giftcard_status_date-expired">
+                <div class="mw-giftcard__image">
+                  <img
+                    src="./img/gift-image-4.png"
+                    srcset="./img/gift-image-4@2x.png 2x"
+                    alt="gift image"
+                  />
+                </div>
+                <div
+                  class="mw-giftcard__heading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_bold mw-text_spacing_m"
+                >
+                  Монстера
+                </div>
+                <div
+                  class="mw-giftcard__subheading mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_regular mw-text_spacing_m"
+                >
+                  Дом и уют
+                </div>
+                <div
+                  class="mw-giftcard__badge mw-giftcard__badge_position_top-left"
+                >
+                  <div
+                    class="mw-giftcard__badge-image mw-icon mw-icon_name_calendar mw-icon_view_error"
+                  ></div>
+                  <div
+                    class="mw-text mw-text_size_s mw-text_line-height_m mw-text_weight_medium mw-text_spacing_m"
+                  >
+                    23.03
+                  </div>
+                </div>
+              </div>
+              <pre><code class="language-html">&lt;div class="mw-giftcard mw-giftcard_status_date-expired"&gt;...&lt;/div&gt;</code></pre>
             </div>
           </div>
-          <pre><code class="language-html">&lt;div class="mw-giftcard mw-giftcard_status_is-giving"&gt;...&lt;/div&gt;</code></pre>
+          
         </div>
       </div>
       <!-- карточка подарка -->
@@ -926,29 +1067,29 @@
           <div class="wishlist-preview">
             <div class="mw-wishlist-preview">
               <div class="mw-wishlist-preview__images">
-                  <img
-                    src="./img/wishlist-preview-img-01.png"
-                    srcset="./img/wishlist-preview-img-01@2x.png 2x"
-                    alt="wishlist preview image"
-                  />
-                  <img
-                    src="./img/wishlist-preview-img-02.png"
-                    srcset="./img/wishlist-preview-img-02@2x.png 2x"
-                    alt="wishlist preview image"
-                    class="mw-wishlist-preview__image"
-                  />
-                  <img
-                    src="./img/wishlist-preview-img-03.png"
-                    srcset="./img/wishlist-preview-img-03@2x.png 2x"
-                    alt="wishlist preview image"
-                    class="mw-wishlist-preview__image"
-                  />
-                  <img
-                    src="./img/wishlist-preview-img-04.png"
-                    srcset="./img/wishlist-preview-img-04@2x.png 2x"
-                    alt="wishlist preview image"
-                    class="mw-wishlist-preview__image"
-                  />
+                <img
+                  src="./img/wishlist-preview-img-01.png"
+                  srcset="./img/wishlist-preview-img-01@2x.png 2x"
+                  alt="wishlist preview image"
+                />
+                <img
+                  src="./img/wishlist-preview-img-02.png"
+                  srcset="./img/wishlist-preview-img-02@2x.png 2x"
+                  alt="wishlist preview image"
+                  class="mw-wishlist-preview__image"
+                />
+                <img
+                  src="./img/wishlist-preview-img-03.png"
+                  srcset="./img/wishlist-preview-img-03@2x.png 2x"
+                  alt="wishlist preview image"
+                  class="mw-wishlist-preview__image"
+                />
+                <img
+                  src="./img/wishlist-preview-img-04.png"
+                  srcset="./img/wishlist-preview-img-04@2x.png 2x"
+                  alt="wishlist preview image"
+                  class="mw-wishlist-preview__image"
+                />
               </div>
               <p class="mw-wishlist-preview__name">Новый год</p>
             </div>

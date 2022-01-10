@@ -15,6 +15,14 @@
   background-color: var(--color-text-accent);
 }
 
+.mw-icon_view_warning {
+  background-color: var(--color-text-warning);
+}
+
+.mw-icon_view_error {
+  background-color: var(--color-text-error);
+}
+
 /* перечисление иконок */
 
 .mw-icon_name_arrow-down {
@@ -80,4 +88,9 @@
 .mw-icon_name_twitter {
   -webkit-mask-image: url("../../icons/icon-twitter.svg");
   mask-image: url("../../icons/icon-twitter.svg");
+}
+
+.mw-icon_name_calendar {
+  -webkit-mask-image: url("../../icons/icon-calendar.svg");
+  mask-image: url("../../icons/icon-calendar.svg");
 }
